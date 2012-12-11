@@ -8,9 +8,9 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <scm>
-    <connection>scm:git:git://github.com/Cryten/PQM-Apps.git</connection>
-    <developerConnection>scm:git:[fetch=]git://github.com/Cryten/PQM-Apps.git[push=]git@github.com:Cryten/PQM-Apps.git</developerConnection>
-    <url>scm:git:git@github.com:Cryten/PQM-Apps.git</url>
+    <connection>scm:git:https://github.com/Cryten/PQM-Apps.git</connection>
+    <developerConnection>scm:git:[fetch=]https://github.com/Cryten/PQM-Apps.git[push=]https://github.com/Cryten/PQM-Apps.git</developerConnection>
+    <url>scm:git:https://github.com/Cryten/PQM-Apps.git</url>
   </scm>
   <dependencies>
     <dependency>
@@ -33,9 +33,9 @@
         <artifactId>maven-scm-plugin</artifactId>
         <version>1.8</version>
         <configuration>
-          <username>username</username>
-          <password>password</password>
-          <connectionType>developerConnection</connectionType>
+          <goals>install</goals>
+          <username>Cryten</username>
+          <password>Cartanu666</password>
         </configuration>
       </plugin>
       <plugin>
